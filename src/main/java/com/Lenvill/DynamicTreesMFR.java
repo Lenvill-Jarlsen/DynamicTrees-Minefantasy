@@ -7,11 +7,11 @@ import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 
-@Mod(modid = modBase.MODID, name = modBase.NAME, version = modBase.VERSION)
-public class modBase {
-    public static final String MODID = "modBase";
-    public static final String NAME = "modBase";
-    public static final String VERSION = "0.0";
+@Mod(modid = DynamicTreesMFR.MODID, name = DynamicTreesMFR.NAME, version = DynamicTreesMFR.VERSION)
+public class DynamicTreesMFR {
+    public static final String MODID = "dynamictreesmfr";
+    public static final String NAME = "Dynamic Trees for Minefantasy: Reforged";
+    public static final String VERSION = "0.0.1";
 
     @SidedProxy(clientSide = "com.Lenvill.proxy.ClientProxy", serverSide = "com.Lenvill.proxy.CommonProxy")
     public static CommonProxy PROXY;

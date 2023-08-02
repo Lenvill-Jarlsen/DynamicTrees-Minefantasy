@@ -2,10 +2,10 @@
 <component>
   <configuration default="false" factoryName="Application" name="runServer" singleton="false" type="Application">
     <option name="MAIN_CLASS_NAME" value="net.minecraftforge.legacydev.MainServer"/>
-    <option name="VM_PARAMETERS" value="-Dforge.logging.console.level=debug -Dforge.logging.markers=REGISTRIES -Dnet.minecraftforge.gradle.GradleStart.srg.srg-mcp=C:\Users\lenvi\OneDrive\Documents\GitHub\modProject\build\createSrgToMcp\output.srg -Dmixin.env.remapRefMap=true -Dmixin.env.refMapRemappingFile=C:\Users\lenvi\OneDrive\Documents\GitHub\modProject\build\createSrgToMcp\output.srg -Dnet.minecraftforge.gradle.GradleStart.csvDir=C:\Users\lenvi\OneDrive\Documents\GitHub\modProject\build\extractMappings -Dnet.minecraftforge.gradle.GradleStart.srg.notch-srg=C:\Users\lenvi\OneDrive\Documents\GitHub\modProject\build\patchGenerateObfToSrg\obfToSrg.srg -Dmixin.hotSwap=true -Dmixin.checks.interfaces=true"/>
+    <option name="VM_PARAMETERS" value="-Dforge.logging.console.level=debug -Dforge.logging.markers=REGISTRIES -Dnet.minecraftforge.gradle.GradleStart.srg.srg-mcp=D:\gitRepositories\DynamicTrees-Minefantasy\build\createSrgToMcp\output.srg -Dmixin.env.remapRefMap=true -Dmixin.env.refMapRemappingFile=D:\gitRepositories\DynamicTrees-Minefantasy\build\createSrgToMcp\output.srg -Dnet.minecraftforge.gradle.GradleStart.csvDir=D:\gitRepositories\DynamicTrees-Minefantasy\build\extractMappings -Dnet.minecraftforge.gradle.GradleStart.srg.notch-srg=D:\gitRepositories\DynamicTrees-Minefantasy\build\patchGenerateObfToSrg\obfToSrg.srg -Dmixin.hotSwap=true -Dmixin.checks.interfaces=true"/>
     <option name="PROGRAM_PARAMETERS" value=""/>
     <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$\run"/>
-    <module name="modProject.main"/>
+    <module name="DynamicTrees-Minefantasy.main"/>
     <envs>
       <env name="MCP_TO_SRG" value="$PROJECT_DIR$\build\createSrgToMcp\output.srg"/>
       <env name="MOD_CLASSES" value="$PROJECT_DIR$\build\classes\java\main"/>
