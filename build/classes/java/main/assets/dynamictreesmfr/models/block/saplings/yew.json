@@ -1,0 +1,7 @@
+{   "parent": "dynamictrees:block/sapling",
+    "textures": {
+        "particle": "minefantasyreforged:blocks/yew_leaves",
+        "log": "inefantasyreforged:blocks/yew_log_side",
+        "leaves": minefantasyreforged:blocks/yew_leaves"
+    }
+}

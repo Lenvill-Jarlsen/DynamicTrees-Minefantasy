@@ -1,0 +1,7 @@
+{
+	"parent": "dynamictrees:block/smartmodel/branch",
+	"textures": {
+		"bark": "minefantasyreforged:blocks/ebony_log_side",
+		"rings": "minefantasyreforged:blocks/ebony_log_top"
+	}
+}

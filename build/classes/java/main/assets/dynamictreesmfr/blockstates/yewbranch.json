@@ -1,0 +1,5 @@
+{
+    "variants": {
+        "normal": { "model": "dynamictreesmfr:yewbranch#dynamictree" }
+    }
+}

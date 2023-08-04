@@ -1,0 +1,499 @@
+[02:14:08] [main/INFO]: Found and added coremod: zone.rong.mixinbooter.MixinBooterPlugin
+[02:14:08] [main/INFO]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[02:14:08] [main/INFO]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[02:14:08] [main/INFO]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
+[02:14:08] [main/INFO]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
+[02:14:08] [main/INFO]: Forge Mod Loader version 14.23.5.2860 for Minecraft 1.12.2 loading
+[02:14:08] [main/INFO]: Java is OpenJDK 64-Bit Server VM, version 1.8.0_372, running on Windows 11:amd64:10.0, installed at C:\Users\lenvi\.jdks\corretto-1.8.0_372\jre
+[02:14:08] [main/ERROR]: Apache Maven library folder was not in the format expected. Using default libraries directory.
+[02:14:08] [main/ERROR]: Full: C:\Users\lenvi\.gradle\caches\modules-2\files-2.1\org.apache.maven\maven-artifact\3.5.3\7dc72b6d6d8a6dced3d294ed54c2cc3515ade9f4\maven-artifact-3.5.3.jar
+[02:14:08] [main/ERROR]: Trimmed: c:/users/lenvi/.gradle/caches/modules-2/files-2.1/org.apache.maven/maven-artifact/3.5.3/
+[02:14:09] [main/INFO]: Managed to load a deobfuscated Minecraft name- we are in a deobfuscated environment. Skipping runtime deobfuscation
+[02:14:09] [main/INFO]: Detected deobfuscated environment, loading log configs for colored console logs.
+[02:14:09] [main/INFO] [FML]: Ignoring missing certificate for coremod FMLCorePlugin (net.minecraftforge.fml.relauncher.FMLCorePlugin), we are in deobf and it's a forge core plugin
+[02:14:09] [main/INFO] [FML]: Ignoring missing certificate for coremod FMLForgePlugin (net.minecraftforge.classloading.FMLForgePlugin), we are in deobf and it's a forge core plugin
+[02:14:09] [main/INFO] [FML]: Found a command line coremod : zone.rong.mixinbooter.MixinBooterPlugin
+[02:14:09] [main/INFO] [FML]: Ignoring missing certificate for coremod MixinBooter (zone.rong.mixinbooter.MixinBooterPlugin), as this is probably a dev workspace
+[02:14:09] [main/INFO] [MixinBooter]: MixinBootstrap Initializing...
+[02:14:09] [main/INFO] [mixin]: SpongePowered MIXIN Subsystem Version=0.8.2 Source=file:/C:/Users/lenvi/.gradle/caches/modules-2/files-2.1/zone.rong/mixinbooter/7.0/3e9b7e2cfae2532de3d823c9e5368176334f8726/mixinbooter-7.0.jar Service=LaunchWrapper Env=CLIENT
+[02:14:09] [main/INFO] [mixin]: Attempting to load Hot-Swap agent
+[02:14:09] [main/INFO] [mixin]: Attempting to load Fernflower decompiler (Threaded mode)
+[02:14:09] [main/INFO] [mixin]: Fernflower could not be loaded, exported classes will not be decompiled. NoClassDefFoundError: org/jetbrains/java/decompiler/main/extern/IResultSaver
+[02:14:10] [main/INFO] [mixin]: Preparing mixins for MixinEnvironment[PREINIT]
+[02:14:10] [main/INFO] [mixin]: Compatibility level set to JAVA_8
+[02:14:10] [main/INFO] [FML]: Searching D:\gitRepositories\DynamicTrees-Minefantasy\run\.\mods for mods
+[02:14:10] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.gradle.tweakers.CoremodTweaker
+[02:14:10] [main/INFO] [CoremodTweaker]: Injecting location in coremod net.minecraftforge.fml.relauncher.FMLCorePlugin
+[02:14:10] [main/INFO] [CoremodTweaker]: Injecting location in coremod net.minecraftforge.classloading.FMLForgePlugin
+[02:14:10] [main/INFO] [CoremodTweaker]: Injecting location in coremod zone.rong.mixinbooter.MixinBooterPlugin
+[02:14:10] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[02:14:10] [main/INFO] [LaunchWrapper]: Loading tweak class name org.spongepowered.asm.mixin.EnvironmentStateTweaker
+[02:14:10] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[02:14:10] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
+[02:14:10] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[02:14:10] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[02:14:10] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[02:14:10] [main/INFO] [mixin]: Checking for additional mixins for MixinEnvironment[PREINIT]
+[02:14:10] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[02:14:11] [main/ERROR] [FML]: FML appears to be missing any signature data. This is not a good thing
+[02:14:11] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[02:14:11] [main/INFO] [LaunchWrapper]: Calling tweak class org.spongepowered.asm.mixin.EnvironmentStateTweaker
+[02:14:11] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[02:14:11] [main/INFO] [mixin]: Preparing mixins for MixinEnvironment[INIT]
+[02:14:11] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
+[02:14:11] [main/INFO] [net.minecraftforge.gradle.GradleForgeHacks]: Remapping AccessTransformer rules...
+[02:14:11] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
+[02:14:11] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
+[02:14:11] [main/INFO] [mixin]: Preparing mixins for MixinEnvironment[DEFAULT]
+[02:14:11] [main/INFO] [mixin]: Selecting config mixin.mixinbooter.init.json
+[02:14:11] [main/INFO] [mixin]: Remapping refMap mixins.mixinbooter.refmap.json using D:\gitRepositories\DynamicTrees-Minefantasy\build\createSrgToMcp\output.srg
+[02:14:11] [main/INFO] [mixin]: Preparing mixin.mixinbooter.init.json (2)
+[02:14:11] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.client.main.Main}
+[02:14:12] [Client thread/INFO] [net.minecraft.client.Minecraft]: Setting user: Player0
+[02:14:15] [Client thread/WARN] [net.minecraft.client.settings.GameSettings]: Skipping bad option: lastServer:
+[02:14:15] [Client thread/INFO] [net.minecraft.client.Minecraft]: LWJGL Version: 2.9.4
+[02:14:16] [Client thread/INFO] [mixin]: Mixing CrashReportMixin from mixin.mixinbooter.init.json into net.minecraft.crash.CrashReport
+[02:14:16] [Client thread/INFO] [FML]: -- System Details --
+Details:
+	Minecraft Version: 1.12.2
+	Operating System: Windows 11 (amd64) version 10.0
+	Java Version: 1.8.0_372, Amazon.com Inc.
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode), Amazon.com Inc.
+	Memory: 601849480 bytes (573 MB) / 1030750208 bytes (983 MB) up to 7594835968 bytes (7243 MB)
+	JVM Flags: 0 total; 
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: 
+	Loaded coremods (and transformers): 
+MixinBooter (mixinbooter-7.0.jar)
+  
+	GL info: ' Vendor: 'NVIDIA Corporation' Version: '4.6.0 NVIDIA 472.12' Renderer: 'NVIDIA GeForce RTX 2060/PCIe/SSE2'
+[02:14:16] [Client thread/INFO] [FML]: MinecraftForge v14.23.5.2860 Initialized
+[02:14:16] [Client thread/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.
+[02:14:16] [Client thread/INFO] [FML]: Invalid recipe found with multiple oredict ingredients in the same ingredient...
+[02:14:17] [Client thread/INFO] [FML]: Replaced 1227 ore ingredients
+[02:14:17] [Client thread/INFO] [mixin]: Mixing LoadControllerMixin from mixin.mixinbooter.init.json into net.minecraftforge.fml.common.LoadController
+[02:14:17] [Client thread/INFO] [mixin]: Renaming synthetic method lambda$beforeConstructing$0(Lnet/minecraft/launchwrapper/IClassTransformer;)Z to md01472e$lambda$beforeConstructing$0$0 in mixin.mixinbooter.init.json:LoadControllerMixin
+[02:14:17] [Client thread/INFO] [FML]: Searching D:\gitRepositories\DynamicTrees-Minefantasy\run\.\mods for mods
+[02:14:17] [Client thread/WARN] [FML]: Mod codechickenlib is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 3.2.3.358
+[02:14:18] [Client thread/INFO] [FML]: Forge Mod Loader has identified 10 mods to load
+[02:14:18] [Client thread/INFO] [MixinBooter]: Instantiating all MixinLoader annotated classes...
+[02:14:18] [Client thread/INFO] [MixinBooter]: Instantiating all ILateMixinLoader implemented classes...
+[02:14:18] [Client thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, mixinbooter, FML, forge, dynamictreesmfr, codechickenlib, dynamictrees, minefantasyreforged, jei] at CLIENT
+[02:14:18] [Client thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, mixinbooter, FML, forge, dynamictreesmfr, codechickenlib, dynamictrees, minefantasyreforged, jei] at SERVER
+[02:14:19] [Thread-3/INFO] [FML]: Using sync timing. 200 frames of Display.update took 130913300 nanos
+[02:14:19] [Client thread/ERROR] [FML]: The mod codechickenlib is expecting signature f1850c39b2516232a2108a7bd84d1cb5df93b261 for source CodeChickenLib-1.12.2-3.2.3.358_mapped_stable_39-1.12-universal.jar, however there is no signature matching that description
+[02:14:20] [Client thread/INFO] [net.minecraft.client.resources.SimpleReloadableResourceManager]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Dynamic Trees for Minefantasy: Reforged, FMLFileResourcePack:CodeChicken Lib, FMLFileResourcePack:Dynamic Trees, FMLFileResourcePack:MineFantasy Reforged, FMLFileResourcePack:Just Enough Items
+[02:14:20] [Client thread/INFO] [FML]: Processing ObjectHolder annotations
+[02:14:20] [Client thread/INFO] [FML]: Found 1168 ObjectHolder annotations
+[02:14:20] [Client thread/INFO] [FML]: Identifying ItemStackHolder annotations
+[02:14:20] [Client thread/INFO] [FML]: Found 0 ItemStackHolder annotations
+[02:14:20] [Client thread/INFO] [FML]: Configured a dormant chunk cache size of 0
+[02:14:20] [Forge Version Check/INFO] [forge.VersionCheck]: [codechickenlib] Starting version check at http://chickenbones.net/Files/notification/version.php?query=forge&version=1.12&file=CodeChickenLib
+[02:14:20] [Client thread/INFO] [STDOUT]: [com.ferreusveritas.dynamictrees.ModConfigs:preInit:112]: DynamicTrees BlackListed DimValue: 7
+[02:14:20] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `species_tile_entity`, expected `dynamictrees`. This could be a intended override, but in most cases indicates a broken mod.
+[02:14:20] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `bonsai_tile_entity`, expected `dynamictrees`. This could be a intended override, but in most cases indicates a broken mod.
+[02:14:21] [Forge Version Check/INFO] [forge.VersionCheck]: [codechickenlib] Found status: BETA Target: null
+[02:14:21] [Forge Version Check/INFO] [forge.VersionCheck]: [dynamictrees] Starting version check at https://github.com/DynamicTreesTeam/DynamicTreesVersionInfo/blob/master/DynamicTrees.json?raw=true
+[02:14:22] [Client thread/INFO] [minefantasyreforged]: API Debug mode updated: false
+[02:14:22] [Client thread/INFO] [minefantasyreforged]: Loading wood material registry entries from config directory
+[02:14:22] [Client thread/INFO] [minefantasyreforged]: Loading default wood material registry entries
+[02:14:22] [Client thread/INFO] [minefantasyreforged]: Loading metal material registry entries from config directory
+[02:14:22] [Client thread/INFO] [minefantasyreforged]: Loading default metal material registry entries
+[02:14:22] [Forge Version Check/INFO] [forge.VersionCheck]: [dynamictrees] Found status: UP_TO_DATE Target: null
+[02:14:22] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[02:14:22] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Found status: AHEAD Target: null
+[02:14:23] [Client thread/INFO] [FML]: Applying holder lookups
+[02:14:23] [Client thread/INFO] [FML]: Holder lookups applied
+[02:14:23] [Client thread/INFO] [FML]: Applying holder lookups
+[02:14:23] [Client thread/INFO] [FML]: Holder lookups applied
+[02:14:23] [Client thread/INFO] [FML]: Applying holder lookups
+[02:14:23] [Client thread/INFO] [FML]: Holder lookups applied
+[02:14:23] [Client thread/INFO] [FML]: Applying holder lookups
+[02:14:23] [Client thread/INFO] [FML]: Holder lookups applied
+[02:14:23] [Client thread/INFO] [FML]: Injecting itemstacks
+[02:14:23] [Client thread/INFO] [FML]: Itemstack injection complete
+[02:14:25] [Sound Library Loader/INFO] [net.minecraft.client.audio.SoundManager]: Starting up SoundSystem...
+[02:14:25] [Thread-5/INFO] [net.minecraft.client.audio.SoundManager]: Initializing LWJGL OpenAL
+[02:14:25] [Thread-5/INFO] [net.minecraft.client.audio.SoundManager]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[02:14:26] [Thread-5/INFO] [net.minecraft.client.audio.SoundManager]: OpenAL initialized.
+[02:14:26] [Sound Library Loader/INFO] [net.minecraft.client.audio.SoundManager]: Sound engine started
+[02:14:30] [Client thread/INFO] [FML]: Max texture size: 16384
+[02:14:33] [Client thread/INFO] [net.minecraft.client.renderer.texture.TextureMap]: Created: 1024x1024 textures-atlas
+[02:14:34] [Client thread/INFO] [STDERR]: [com.ferreusveritas.dynamictrees.models.bakedmodels.BakedModelSapling:<init>:73]: net.minecraftforge.client.model.ModelLoaderRegistry$LoaderException: Exception loading model dynamictrees:block/saplings/tallbirch with loader VanillaLoader.INSTANCE, skipping
+[02:14:34] [Client thread/INFO] [STDERR]: [com.ferreusveritas.dynamictrees.models.bakedmodels.BakedModelSapling:<init>:73]: 	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:161)
+[02:14:34] [Client thread/INFO] [STDERR]: [com.ferreusveritas.dynamictrees.models.bakedmodels.BakedModelSapling:<init>:73]: 	at com.ferreusveritas.dynamictrees.models.bakedmodels.BakedModelSapling.<init>(BakedModelSapling.java:68)
+[02:14:34] [Client thread/INFO] [STDERR]: [com.ferreusveritas.dynamictrees.models.bakedmodels.BakedModelSapling:<init>:73]: 	at com.ferreusveritas.dynamictrees.models.loaders.ModelLoaderSapling$1.bake(ModelLoaderSapling.java:26)
+[02:14:34] [Client thread/INFO] [STDERR]: [com.ferreusveritas.dynamictrees.models.bakedmodels.BakedModelSapling:<init>:73]: 	at net.minecraftforge.client.model.ModelLoader$WeightedRandomModel.bake(ModelLoader.java:719)
+[02:14:34] [Client thread/INFO] [STDERR]: [com.ferreusveritas.dynamictrees.models.bakedmodels.BakedModelSapling:<init>:73]: 	at net.minecraftforge.client.model.ModelLoader.setupModelRegistry(ModelLoader.java:180)
+[02:14:34] [Client thread/INFO] [STDERR]: [com.ferreusveritas.dynamictrees.models.bakedmodels.BakedModelSapling:<init>:73]: 	at net.minecraft.client.renderer.block.model.ModelManager.onResourceManagerReload(ModelManager.java:28)
+[02:14:34] [Client thread/INFO] [STDERR]: [com.ferreusveritas.dynamictrees.models.bakedmodels.BakedModelSapling:<init>:73]: 	at net.minecraft.client.resources.SimpleReloadableResourceManager.registerReloadListener(SimpleReloadableResourceManager.java:121)
+[02:14:34] [Client thread/INFO] [STDERR]: [com.ferreusveritas.dynamictrees.models.bakedmodels.BakedModelSapling:<init>:73]: 	at net.minecraft.client.Minecraft.init(Minecraft.java:513)
+[02:14:34] [Client thread/INFO] [STDERR]: [com.ferreusveritas.dynamictrees.models.bakedmodels.BakedModelSapling:<init>:73]: 	at net.minecraft.client.Minecraft.run(Minecraft.java:378)
+[02:14:34] [Client thread/INFO] [STDERR]: [com.ferreusveritas.dynamictrees.models.bakedmodels.BakedModelSapling:<init>:73]: 	at net.minecraft.client.main.Main.main(Main.java:118)
+[02:14:34] [Client thread/INFO] [STDERR]: [com.ferreusveritas.dynamictrees.models.bakedmodels.BakedModelSapling:<init>:73]: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[02:14:34] [Client thread/INFO] [STDERR]: [com.ferreusveritas.dynamictrees.models.bakedmodels.BakedModelSapling:<init>:73]: 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+[02:14:34] [Client thread/INFO] [STDERR]: [com.ferreusveritas.dynamictrees.models.bakedmodels.BakedModelSapling:<init>:73]: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[02:14:34] [Client thread/INFO] [STDERR]: [com.ferreusveritas.dynamictrees.models.bakedmodels.BakedModelSapling:<init>:73]: 	at java.lang.reflect.Method.invoke(Method.java:498)
+[02:14:34] [Client thread/INFO] [STDERR]: [com.ferreusveritas.dynamictrees.models.bakedmodels.BakedModelSapling:<init>:73]: 	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+[02:14:34] [Client thread/INFO] [STDERR]: [com.ferreusveritas.dynamictrees.models.bakedmodels.BakedModelSapling:<init>:73]: 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+[02:14:34] [Client thread/INFO] [STDERR]: [com.ferreusveritas.dynamictrees.models.bakedmodels.BakedModelSapling:<init>:73]: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[02:14:34] [Client thread/INFO] [STDERR]: [com.ferreusveritas.dynamictrees.models.bakedmodels.BakedModelSapling:<init>:73]: 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+[02:14:34] [Client thread/INFO] [STDERR]: [com.ferreusveritas.dynamictrees.models.bakedmodels.BakedModelSapling:<init>:73]: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[02:14:34] [Client thread/INFO] [STDERR]: [com.ferreusveritas.dynamictrees.models.bakedmodels.BakedModelSapling:<init>:73]: 	at java.lang.reflect.Method.invoke(Method.java:498)
+[02:14:34] [Client thread/INFO] [STDERR]: [com.ferreusveritas.dynamictrees.models.bakedmodels.BakedModelSapling:<init>:73]: 	at net.minecraftforge.legacydev.Main.start(Main.java:91)
+[02:14:34] [Client thread/INFO] [STDERR]: [com.ferreusveritas.dynamictrees.models.bakedmodels.BakedModelSapling:<init>:73]: 	at net.minecraftforge.legacydev.MainClient.main(MainClient.java:29)
+[02:14:34] [Client thread/INFO] [STDERR]: [java.lang.Throwable:printStackTrace:635]: Caused by: java.io.FileNotFoundException: dynamictrees:models/block/saplings/tallbirch.json
+[02:14:34] [Client thread/INFO] [STDERR]: [java.lang.Throwable:printStackTrace:635]: 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:69)
+[02:14:34] [Client thread/INFO] [STDERR]: [java.lang.Throwable:printStackTrace:635]: 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:65)
+[02:14:34] [Client thread/INFO] [STDERR]: [java.lang.Throwable:printStackTrace:635]: 	at net.minecraft.client.renderer.block.model.ModelBakery.loadModel(ModelBakery.java:334)
+[02:14:34] [Client thread/INFO] [STDERR]: [java.lang.Throwable:printStackTrace:635]: 	at net.minecraftforge.client.model.ModelLoader.access$1400(ModelLoader.java:115)
+[02:14:34] [Client thread/INFO] [STDERR]: [java.lang.Throwable:printStackTrace:635]: 	at net.minecraftforge.client.model.ModelLoader$VanillaLoader.loadModel(ModelLoader.java:861)
+[02:14:34] [Client thread/INFO] [STDERR]: [java.lang.Throwable:printStackTrace:635]: 	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:157)
+[02:14:34] [Client thread/INFO] [STDERR]: [java.lang.Throwable:printStackTrace:635]: 	... 21 more
+[02:14:34] [Client thread/INFO] [STDERR]: [com.ferreusveritas.dynamictrees.models.bakedmodels.BakedModelSapling:<init>:73]: net.minecraftforge.client.model.ModelLoaderRegistry$LoaderException: Exception loading model dynamictreesmfr:block/saplings/yew with loader VanillaLoader.INSTANCE, skipping
+[02:14:34] [Client thread/INFO] [STDERR]: [com.ferreusveritas.dynamictrees.models.bakedmodels.BakedModelSapling:<init>:73]: 	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:161)
+[02:14:34] [Client thread/INFO] [STDERR]: [com.ferreusveritas.dynamictrees.models.bakedmodels.BakedModelSapling:<init>:73]: 	at com.ferreusveritas.dynamictrees.models.bakedmodels.BakedModelSapling.<init>(BakedModelSapling.java:68)
+[02:14:34] [Client thread/INFO] [STDERR]: [com.ferreusveritas.dynamictrees.models.bakedmodels.BakedModelSapling:<init>:73]: 	at com.ferreusveritas.dynamictrees.models.loaders.ModelLoaderSapling$1.bake(ModelLoaderSapling.java:26)
+[02:14:34] [Client thread/INFO] [STDERR]: [com.ferreusveritas.dynamictrees.models.bakedmodels.BakedModelSapling:<init>:73]: 	at net.minecraftforge.client.model.ModelLoader$WeightedRandomModel.bake(ModelLoader.java:719)
+[02:14:34] [Client thread/INFO] [STDERR]: [com.ferreusveritas.dynamictrees.models.bakedmodels.BakedModelSapling:<init>:73]: 	at net.minecraftforge.client.model.ModelLoader.setupModelRegistry(ModelLoader.java:180)
+[02:14:34] [Client thread/INFO] [STDERR]: [com.ferreusveritas.dynamictrees.models.bakedmodels.BakedModelSapling:<init>:73]: 	at net.minecraft.client.renderer.block.model.ModelManager.onResourceManagerReload(ModelManager.java:28)
+[02:14:34] [Client thread/INFO] [STDERR]: [com.ferreusveritas.dynamictrees.models.bakedmodels.BakedModelSapling:<init>:73]: 	at net.minecraft.client.resources.SimpleReloadableResourceManager.registerReloadListener(SimpleReloadableResourceManager.java:121)
+[02:14:34] [Client thread/INFO] [STDERR]: [com.ferreusveritas.dynamictrees.models.bakedmodels.BakedModelSapling:<init>:73]: 	at net.minecraft.client.Minecraft.init(Minecraft.java:513)
+[02:14:34] [Client thread/INFO] [STDERR]: [com.ferreusveritas.dynamictrees.models.bakedmodels.BakedModelSapling:<init>:73]: 	at net.minecraft.client.Minecraft.run(Minecraft.java:378)
+[02:14:34] [Client thread/INFO] [STDERR]: [com.ferreusveritas.dynamictrees.models.bakedmodels.BakedModelSapling:<init>:73]: 	at net.minecraft.client.main.Main.main(Main.java:118)
+[02:14:34] [Client thread/INFO] [STDERR]: [com.ferreusveritas.dynamictrees.models.bakedmodels.BakedModelSapling:<init>:73]: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[02:14:34] [Client thread/INFO] [STDERR]: [com.ferreusveritas.dynamictrees.models.bakedmodels.BakedModelSapling:<init>:73]: 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+[02:14:34] [Client thread/INFO] [STDERR]: [com.ferreusveritas.dynamictrees.models.bakedmodels.BakedModelSapling:<init>:73]: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[02:14:34] [Client thread/INFO] [STDERR]: [com.ferreusveritas.dynamictrees.models.bakedmodels.BakedModelSapling:<init>:73]: 	at java.lang.reflect.Method.invoke(Method.java:498)
+[02:14:34] [Client thread/INFO] [STDERR]: [com.ferreusveritas.dynamictrees.models.bakedmodels.BakedModelSapling:<init>:73]: 	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+[02:14:34] [Client thread/INFO] [STDERR]: [com.ferreusveritas.dynamictrees.models.bakedmodels.BakedModelSapling:<init>:73]: 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+[02:14:34] [Client thread/INFO] [STDERR]: [com.ferreusveritas.dynamictrees.models.bakedmodels.BakedModelSapling:<init>:73]: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[02:14:34] [Client thread/INFO] [STDERR]: [com.ferreusveritas.dynamictrees.models.bakedmodels.BakedModelSapling:<init>:73]: 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+[02:14:34] [Client thread/INFO] [STDERR]: [com.ferreusveritas.dynamictrees.models.bakedmodels.BakedModelSapling:<init>:73]: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[02:14:34] [Client thread/INFO] [STDERR]: [com.ferreusveritas.dynamictrees.models.bakedmodels.BakedModelSapling:<init>:73]: 	at java.lang.reflect.Method.invoke(Method.java:498)
+[02:14:34] [Client thread/INFO] [STDERR]: [com.ferreusveritas.dynamictrees.models.bakedmodels.BakedModelSapling:<init>:73]: 	at net.minecraftforge.legacydev.Main.start(Main.java:91)
+[02:14:34] [Client thread/INFO] [STDERR]: [com.ferreusveritas.dynamictrees.models.bakedmodels.BakedModelSapling:<init>:73]: 	at net.minecraftforge.legacydev.MainClient.main(MainClient.java:29)
+[02:14:34] [Client thread/INFO] [STDERR]: [java.lang.Throwable:printStackTrace:635]: Caused by: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: Use JsonReader.setLenient(true) to accept malformed JSON at line 5 column 19 path $.textures.leaves
+[02:14:34] [Client thread/INFO] [STDERR]: [java.lang.Throwable:printStackTrace:635]: 	at com.google.gson.internal.Streams.parse(Streams.java:60)
+[02:14:34] [Client thread/INFO] [STDERR]: [java.lang.Throwable:printStackTrace:635]: 	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:65)
+[02:14:34] [Client thread/INFO] [STDERR]: [java.lang.Throwable:printStackTrace:635]: 	at net.minecraft.util.JsonUtils.gsonDeserialize(JsonUtils.java:353)
+[02:14:34] [Client thread/INFO] [STDERR]: [java.lang.Throwable:printStackTrace:635]: 	at net.minecraft.client.renderer.block.model.ModelBlock.deserialize(ModelBlock.java:51)
+[02:14:34] [Client thread/INFO] [STDERR]: [java.lang.Throwable:printStackTrace:635]: 	at net.minecraft.client.renderer.block.model.ModelBakery.loadModel(ModelBakery.java:338)
+[02:14:34] [Client thread/INFO] [STDERR]: [java.lang.Throwable:printStackTrace:635]: 	at net.minecraftforge.client.model.ModelLoader.access$1400(ModelLoader.java:115)
+[02:14:34] [Client thread/INFO] [STDERR]: [java.lang.Throwable:printStackTrace:635]: 	at net.minecraftforge.client.model.ModelLoader$VanillaLoader.loadModel(ModelLoader.java:861)
+[02:14:34] [Client thread/INFO] [STDERR]: [java.lang.Throwable:printStackTrace:635]: 	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:157)
+[02:14:34] [Client thread/INFO] [STDERR]: [java.lang.Throwable:printStackTrace:635]: 	... 21 more
+[02:14:34] [Client thread/INFO] [STDERR]: [java.lang.Throwable:printStackTrace:644]: Caused by: com.google.gson.stream.MalformedJsonException: Use JsonReader.setLenient(true) to accept malformed JSON at line 5 column 19 path $.textures.leaves
+[02:14:34] [Client thread/INFO] [STDERR]: [java.lang.Throwable:printStackTrace:644]: 	at com.google.gson.stream.JsonReader.syntaxError(JsonReader.java:1559)
+[02:14:34] [Client thread/INFO] [STDERR]: [java.lang.Throwable:printStackTrace:644]: 	at com.google.gson.stream.JsonReader.checkLenient(JsonReader.java:1401)
+[02:14:34] [Client thread/INFO] [STDERR]: [java.lang.Throwable:printStackTrace:644]: 	at com.google.gson.stream.JsonReader.doPeek(JsonReader.java:593)
+[02:14:34] [Client thread/INFO] [STDERR]: [java.lang.Throwable:printStackTrace:644]: 	at com.google.gson.stream.JsonReader.peek(JsonReader.java:425)
+[02:14:34] [Client thread/INFO] [STDERR]: [java.lang.Throwable:printStackTrace:644]: 	at com.google.gson.internal.bind.TypeAdapters$29.read(TypeAdapters.java:716)
+[02:14:34] [Client thread/INFO] [STDERR]: [java.lang.Throwable:printStackTrace:644]: 	at com.google.gson.internal.bind.TypeAdapters$29.read(TypeAdapters.java:739)
+[02:14:34] [Client thread/INFO] [STDERR]: [java.lang.Throwable:printStackTrace:644]: 	at com.google.gson.internal.bind.TypeAdapters$29.read(TypeAdapters.java:739)
+[02:14:34] [Client thread/INFO] [STDERR]: [java.lang.Throwable:printStackTrace:644]: 	at com.google.gson.internal.bind.TypeAdapters$29.read(TypeAdapters.java:714)
+[02:14:34] [Client thread/INFO] [STDERR]: [java.lang.Throwable:printStackTrace:644]: 	at com.google.gson.internal.Streams.parse(Streams.java:48)
+[02:14:34] [Client thread/INFO] [STDERR]: [java.lang.Throwable:printStackTrace:644]: 	... 28 more
+[02:14:34] [Client thread/INFO] [STDERR]: [com.ferreusveritas.dynamictrees.models.bakedmodels.BakedModelSapling:<init>:73]: net.minecraftforge.client.model.ModelLoaderRegistry$LoaderException: Exception loading model dynamictreesmfr:block/saplings/ironbark with loader VanillaLoader.INSTANCE, skipping
+[02:14:34] [Client thread/INFO] [STDERR]: [com.ferreusveritas.dynamictrees.models.bakedmodels.BakedModelSapling:<init>:73]: 	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:161)
+[02:14:34] [Client thread/INFO] [STDERR]: [com.ferreusveritas.dynamictrees.models.bakedmodels.BakedModelSapling:<init>:73]: 	at com.ferreusveritas.dynamictrees.models.bakedmodels.BakedModelSapling.<init>(BakedModelSapling.java:68)
+[02:14:34] [Client thread/INFO] [STDERR]: [com.ferreusveritas.dynamictrees.models.bakedmodels.BakedModelSapling:<init>:73]: 	at com.ferreusveritas.dynamictrees.models.loaders.ModelLoaderSapling$1.bake(ModelLoaderSapling.java:26)
+[02:14:34] [Client thread/INFO] [STDERR]: [com.ferreusveritas.dynamictrees.models.bakedmodels.BakedModelSapling:<init>:73]: 	at net.minecraftforge.client.model.ModelLoader$WeightedRandomModel.bake(ModelLoader.java:719)
+[02:14:34] [Client thread/INFO] [STDERR]: [com.ferreusveritas.dynamictrees.models.bakedmodels.BakedModelSapling:<init>:73]: 	at net.minecraftforge.client.model.ModelLoader.setupModelRegistry(ModelLoader.java:180)
+[02:14:34] [Client thread/INFO] [STDERR]: [com.ferreusveritas.dynamictrees.models.bakedmodels.BakedModelSapling:<init>:73]: 	at net.minecraft.client.renderer.block.model.ModelManager.onResourceManagerReload(ModelManager.java:28)
+[02:14:34] [Client thread/INFO] [STDERR]: [com.ferreusveritas.dynamictrees.models.bakedmodels.BakedModelSapling:<init>:73]: 	at net.minecraft.client.resources.SimpleReloadableResourceManager.registerReloadListener(SimpleReloadableResourceManager.java:121)
+[02:14:34] [Client thread/INFO] [STDERR]: [com.ferreusveritas.dynamictrees.models.bakedmodels.BakedModelSapling:<init>:73]: 	at net.minecraft.client.Minecraft.init(Minecraft.java:513)
+[02:14:34] [Client thread/INFO] [STDERR]: [com.ferreusveritas.dynamictrees.models.bakedmodels.BakedModelSapling:<init>:73]: 	at net.minecraft.client.Minecraft.run(Minecraft.java:378)
+[02:14:34] [Client thread/INFO] [STDERR]: [com.ferreusveritas.dynamictrees.models.bakedmodels.BakedModelSapling:<init>:73]: 	at net.minecraft.client.main.Main.main(Main.java:118)
+[02:14:34] [Client thread/INFO] [STDERR]: [com.ferreusveritas.dynamictrees.models.bakedmodels.BakedModelSapling:<init>:73]: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[02:14:34] [Client thread/INFO] [STDERR]: [com.ferreusveritas.dynamictrees.models.bakedmodels.BakedModelSapling:<init>:73]: 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+[02:14:34] [Client thread/INFO] [STDERR]: [com.ferreusveritas.dynamictrees.models.bakedmodels.BakedModelSapling:<init>:73]: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[02:14:34] [Client thread/INFO] [STDERR]: [com.ferreusveritas.dynamictrees.models.bakedmodels.BakedModelSapling:<init>:73]: 	at java.lang.reflect.Method.invoke(Method.java:498)
+[02:14:34] [Client thread/INFO] [STDERR]: [com.ferreusveritas.dynamictrees.models.bakedmodels.BakedModelSapling:<init>:73]: 	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+[02:14:34] [Client thread/INFO] [STDERR]: [com.ferreusveritas.dynamictrees.models.bakedmodels.BakedModelSapling:<init>:73]: 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+[02:14:34] [Client thread/INFO] [STDERR]: [com.ferreusveritas.dynamictrees.models.bakedmodels.BakedModelSapling:<init>:73]: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[02:14:34] [Client thread/INFO] [STDERR]: [com.ferreusveritas.dynamictrees.models.bakedmodels.BakedModelSapling:<init>:73]: 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+[02:14:34] [Client thread/INFO] [STDERR]: [com.ferreusveritas.dynamictrees.models.bakedmodels.BakedModelSapling:<init>:73]: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[02:14:34] [Client thread/INFO] [STDERR]: [com.ferreusveritas.dynamictrees.models.bakedmodels.BakedModelSapling:<init>:73]: 	at java.lang.reflect.Method.invoke(Method.java:498)
+[02:14:34] [Client thread/INFO] [STDERR]: [com.ferreusveritas.dynamictrees.models.bakedmodels.BakedModelSapling:<init>:73]: 	at net.minecraftforge.legacydev.Main.start(Main.java:91)
+[02:14:34] [Client thread/INFO] [STDERR]: [com.ferreusveritas.dynamictrees.models.bakedmodels.BakedModelSapling:<init>:73]: 	at net.minecraftforge.legacydev.MainClient.main(MainClient.java:29)
+[02:14:34] [Client thread/INFO] [STDERR]: [java.lang.Throwable:printStackTrace:635]: Caused by: java.io.FileNotFoundException: dynamictreesmfr:models/block/saplings/ironbark.json
+[02:14:34] [Client thread/INFO] [STDERR]: [java.lang.Throwable:printStackTrace:635]: 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:69)
+[02:14:34] [Client thread/INFO] [STDERR]: [java.lang.Throwable:printStackTrace:635]: 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:65)
+[02:14:34] [Client thread/INFO] [STDERR]: [java.lang.Throwable:printStackTrace:635]: 	at net.minecraft.client.renderer.block.model.ModelBakery.loadModel(ModelBakery.java:334)
+[02:14:34] [Client thread/INFO] [STDERR]: [java.lang.Throwable:printStackTrace:635]: 	at net.minecraftforge.client.model.ModelLoader.access$1400(ModelLoader.java:115)
+[02:14:34] [Client thread/INFO] [STDERR]: [java.lang.Throwable:printStackTrace:635]: 	at net.minecraftforge.client.model.ModelLoader$VanillaLoader.loadModel(ModelLoader.java:861)
+[02:14:34] [Client thread/INFO] [STDERR]: [java.lang.Throwable:printStackTrace:635]: 	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:157)
+[02:14:34] [Client thread/INFO] [STDERR]: [java.lang.Throwable:printStackTrace:635]: 	... 21 more
+[02:14:34] [Client thread/INFO] [STDERR]: [com.ferreusveritas.dynamictrees.models.bakedmodels.BakedModelSapling:<init>:73]: net.minecraftforge.client.model.ModelLoaderRegistry$LoaderException: Exception loading model dynamictreesmfr:block/saplings/ebony with loader VanillaLoader.INSTANCE, skipping
+[02:14:34] [Client thread/INFO] [STDERR]: [com.ferreusveritas.dynamictrees.models.bakedmodels.BakedModelSapling:<init>:73]: 	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:161)
+[02:14:34] [Client thread/INFO] [STDERR]: [com.ferreusveritas.dynamictrees.models.bakedmodels.BakedModelSapling:<init>:73]: 	at com.ferreusveritas.dynamictrees.models.bakedmodels.BakedModelSapling.<init>(BakedModelSapling.java:68)
+[02:14:34] [Client thread/INFO] [STDERR]: [com.ferreusveritas.dynamictrees.models.bakedmodels.BakedModelSapling:<init>:73]: 	at com.ferreusveritas.dynamictrees.models.loaders.ModelLoaderSapling$1.bake(ModelLoaderSapling.java:26)
+[02:14:34] [Client thread/INFO] [STDERR]: [com.ferreusveritas.dynamictrees.models.bakedmodels.BakedModelSapling:<init>:73]: 	at net.minecraftforge.client.model.ModelLoader$WeightedRandomModel.bake(ModelLoader.java:719)
+[02:14:34] [Client thread/INFO] [STDERR]: [com.ferreusveritas.dynamictrees.models.bakedmodels.BakedModelSapling:<init>:73]: 	at net.minecraftforge.client.model.ModelLoader.setupModelRegistry(ModelLoader.java:180)
+[02:14:34] [Client thread/INFO] [STDERR]: [com.ferreusveritas.dynamictrees.models.bakedmodels.BakedModelSapling:<init>:73]: 	at net.minecraft.client.renderer.block.model.ModelManager.onResourceManagerReload(ModelManager.java:28)
+[02:14:34] [Client thread/INFO] [STDERR]: [com.ferreusveritas.dynamictrees.models.bakedmodels.BakedModelSapling:<init>:73]: 	at net.minecraft.client.resources.SimpleReloadableResourceManager.registerReloadListener(SimpleReloadableResourceManager.java:121)
+[02:14:34] [Client thread/INFO] [STDERR]: [com.ferreusveritas.dynamictrees.models.bakedmodels.BakedModelSapling:<init>:73]: 	at net.minecraft.client.Minecraft.init(Minecraft.java:513)
+[02:14:34] [Client thread/INFO] [STDERR]: [com.ferreusveritas.dynamictrees.models.bakedmodels.BakedModelSapling:<init>:73]: 	at net.minecraft.client.Minecraft.run(Minecraft.java:378)
+[02:14:34] [Client thread/INFO] [STDERR]: [com.ferreusveritas.dynamictrees.models.bakedmodels.BakedModelSapling:<init>:73]: 	at net.minecraft.client.main.Main.main(Main.java:118)
+[02:14:34] [Client thread/INFO] [STDERR]: [com.ferreusveritas.dynamictrees.models.bakedmodels.BakedModelSapling:<init>:73]: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[02:14:34] [Client thread/INFO] [STDERR]: [com.ferreusveritas.dynamictrees.models.bakedmodels.BakedModelSapling:<init>:73]: 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+[02:14:34] [Client thread/INFO] [STDERR]: [com.ferreusveritas.dynamictrees.models.bakedmodels.BakedModelSapling:<init>:73]: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[02:14:34] [Client thread/INFO] [STDERR]: [com.ferreusveritas.dynamictrees.models.bakedmodels.BakedModelSapling:<init>:73]: 	at java.lang.reflect.Method.invoke(Method.java:498)
+[02:14:34] [Client thread/INFO] [STDERR]: [com.ferreusveritas.dynamictrees.models.bakedmodels.BakedModelSapling:<init>:73]: 	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+[02:14:34] [Client thread/INFO] [STDERR]: [com.ferreusveritas.dynamictrees.models.bakedmodels.BakedModelSapling:<init>:73]: 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+[02:14:34] [Client thread/INFO] [STDERR]: [com.ferreusveritas.dynamictrees.models.bakedmodels.BakedModelSapling:<init>:73]: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[02:14:34] [Client thread/INFO] [STDERR]: [com.ferreusveritas.dynamictrees.models.bakedmodels.BakedModelSapling:<init>:73]: 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+[02:14:34] [Client thread/INFO] [STDERR]: [com.ferreusveritas.dynamictrees.models.bakedmodels.BakedModelSapling:<init>:73]: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[02:14:34] [Client thread/INFO] [STDERR]: [com.ferreusveritas.dynamictrees.models.bakedmodels.BakedModelSapling:<init>:73]: 	at java.lang.reflect.Method.invoke(Method.java:498)
+[02:14:34] [Client thread/INFO] [STDERR]: [com.ferreusveritas.dynamictrees.models.bakedmodels.BakedModelSapling:<init>:73]: 	at net.minecraftforge.legacydev.Main.start(Main.java:91)
+[02:14:34] [Client thread/INFO] [STDERR]: [com.ferreusveritas.dynamictrees.models.bakedmodels.BakedModelSapling:<init>:73]: 	at net.minecraftforge.legacydev.MainClient.main(MainClient.java:29)
+[02:14:34] [Client thread/INFO] [STDERR]: [java.lang.Throwable:printStackTrace:635]: Caused by: java.io.FileNotFoundException: dynamictreesmfr:models/block/saplings/ebony.json
+[02:14:34] [Client thread/INFO] [STDERR]: [java.lang.Throwable:printStackTrace:635]: 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:69)
+[02:14:34] [Client thread/INFO] [STDERR]: [java.lang.Throwable:printStackTrace:635]: 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:65)
+[02:14:34] [Client thread/INFO] [STDERR]: [java.lang.Throwable:printStackTrace:635]: 	at net.minecraft.client.renderer.block.model.ModelBakery.loadModel(ModelBakery.java:334)
+[02:14:34] [Client thread/INFO] [STDERR]: [java.lang.Throwable:printStackTrace:635]: 	at net.minecraftforge.client.model.ModelLoader.access$1400(ModelLoader.java:115)
+[02:14:34] [Client thread/INFO] [STDERR]: [java.lang.Throwable:printStackTrace:635]: 	at net.minecraftforge.client.model.ModelLoader$VanillaLoader.loadModel(ModelLoader.java:861)
+[02:14:34] [Client thread/INFO] [STDERR]: [java.lang.Throwable:printStackTrace:635]: 	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:157)
+[02:14:34] [Client thread/INFO] [STDERR]: [java.lang.Throwable:printStackTrace:635]: 	... 21 more
+[02:14:34] [Client thread/ERROR] [FML]: Exception loading model for variant dynamictreesmfr:leaves0#hydro=2,tree=1 for blockstates ["dynamictreesmfr:leaves0[decayable=true,hydro=2,tree=1]", "dynamictreesmfr:leaves0[decayable=false,hydro=2,tree=1]"]
+net.minecraftforge.client.model.ModelLoaderRegistry$LoaderException: Exception loading model dynamictreesmfr:leaves0#hydro=2,tree=1 with loader VariantLoader.INSTANCE, skipping
+	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:161) ~[ModelLoaderRegistry.class:?]
+	at net.minecraftforge.client.model.ModelLoader.registerVariant(ModelLoader.java:235) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.loadBlock(ModelBakery.java:153) ~[ModelBakery.class:?]
+	at net.minecraftforge.client.model.ModelLoader.loadBlocks(ModelLoader.java:223) ~[ModelLoader.class:?]
+	at net.minecraftforge.client.model.ModelLoader.setupModelRegistry(ModelLoader.java:150) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelManager.onResourceManagerReload(ModelManager.java:28) [ModelManager.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.registerReloadListener(SimpleReloadableResourceManager.java:121) [SimpleReloadableResourceManager.class:?]
+	at net.minecraft.client.Minecraft.init(Minecraft.java:513) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:378) [Minecraft.class:?]
+	at net.minecraft.client.main.Main.main(Main.java:118) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_372]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_372]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_372]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_372]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_372]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_372]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_372]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_372]
+	at net.minecraftforge.legacydev.Main.start(Main.java:91) [legacydev-0.2.4.0-fatjar.jar:0.2.4.0+0+d7a78fa]
+	at net.minecraftforge.legacydev.MainClient.main(MainClient.java:29) [legacydev-0.2.4.0-fatjar.jar:0.2.4.0+0+d7a78fa]
+Caused by: net.minecraft.client.renderer.block.model.ModelBlockDefinition$MissingVariantException
+	at net.minecraft.client.renderer.block.model.ModelBlockDefinition.getVariant(ModelBlockDefinition.java:83) ~[ModelBlockDefinition.class:?]
+	at net.minecraftforge.client.model.ModelLoader$VariantLoader.loadModel(ModelLoader.java:1175) ~[ModelLoader$VariantLoader.class:?]
+	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:157) ~[ModelLoaderRegistry.class:?]
+	... 21 more
+[02:14:34] [Client thread/ERROR] [FML]: Exception loading blockstate for the variant dynamictreesmfr:leaves0#hydro=2,tree=1: 
+java.lang.Exception: Could not load model definition for variant dynamictreesmfr:leaves0
+	at net.minecraftforge.client.model.ModelLoader.getModelBlockDefinition(ModelLoader.java:269) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.loadBlock(ModelBakery.java:121) ~[ModelBakery.class:?]
+	at net.minecraftforge.client.model.ModelLoader.loadBlocks(ModelLoader.java:223) ~[ModelLoader.class:?]
+	at net.minecraftforge.client.model.ModelLoader.setupModelRegistry(ModelLoader.java:150) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelManager.onResourceManagerReload(ModelManager.java:28) [ModelManager.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.registerReloadListener(SimpleReloadableResourceManager.java:121) [SimpleReloadableResourceManager.class:?]
+	at net.minecraft.client.Minecraft.init(Minecraft.java:513) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:378) [Minecraft.class:?]
+	at net.minecraft.client.main.Main.main(Main.java:118) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_372]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_372]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_372]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_372]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_372]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_372]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_372]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_372]
+	at net.minecraftforge.legacydev.Main.start(Main.java:91) [legacydev-0.2.4.0-fatjar.jar:0.2.4.0+0+d7a78fa]
+	at net.minecraftforge.legacydev.MainClient.main(MainClient.java:29) [legacydev-0.2.4.0-fatjar.jar:0.2.4.0+0+d7a78fa]
+Caused by: java.lang.RuntimeException: Encountered an exception when loading model definition of model dynamictreesmfr:blockstates/leaves0.json
+	at net.minecraft.client.renderer.block.model.ModelBakery.loadMultipartMBD(ModelBakery.java:228) ~[ModelBakery.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.getModelBlockDefinition(ModelBakery.java:208) ~[ModelBakery.class:?]
+	at net.minecraftforge.client.model.ModelLoader.getModelBlockDefinition(ModelLoader.java:265) ~[ModelLoader.class:?]
+	... 20 more
+Caused by: java.io.FileNotFoundException: dynamictreesmfr:blockstates/leaves0.json
+	at net.minecraft.client.resources.FallbackResourceManager.getAllResources(FallbackResourceManager.java:104) ~[FallbackResourceManager.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.getAllResources(SimpleReloadableResourceManager.java:79) ~[SimpleReloadableResourceManager.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.loadMultipartMBD(ModelBakery.java:221) ~[ModelBakery.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.getModelBlockDefinition(ModelBakery.java:208) ~[ModelBakery.class:?]
+	at net.minecraftforge.client.model.ModelLoader.getModelBlockDefinition(ModelLoader.java:265) ~[ModelLoader.class:?]
+	... 20 more
+[02:14:34] [Client thread/ERROR] [FML]: Exception loading model for variant dynamictreesmfr:leaves0#hydro=2,tree=2 for blockstates ["dynamictreesmfr:leaves0[decayable=false,hydro=2,tree=2]", "dynamictreesmfr:leaves0[decayable=true,hydro=2,tree=2]"]
+net.minecraftforge.client.model.ModelLoaderRegistry$LoaderException: Exception loading model dynamictreesmfr:leaves0#hydro=2,tree=2 with loader VariantLoader.INSTANCE, skipping
+	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:161) ~[ModelLoaderRegistry.class:?]
+	at net.minecraftforge.client.model.ModelLoader.registerVariant(ModelLoader.java:235) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.loadBlock(ModelBakery.java:153) ~[ModelBakery.class:?]
+	at net.minecraftforge.client.model.ModelLoader.loadBlocks(ModelLoader.java:223) ~[ModelLoader.class:?]
+	at net.minecraftforge.client.model.ModelLoader.setupModelRegistry(ModelLoader.java:150) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelManager.onResourceManagerReload(ModelManager.java:28) [ModelManager.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.registerReloadListener(SimpleReloadableResourceManager.java:121) [SimpleReloadableResourceManager.class:?]
+	at net.minecraft.client.Minecraft.init(Minecraft.java:513) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:378) [Minecraft.class:?]
+	at net.minecraft.client.main.Main.main(Main.java:118) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_372]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_372]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_372]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_372]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_372]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_372]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_372]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_372]
+	at net.minecraftforge.legacydev.Main.start(Main.java:91) [legacydev-0.2.4.0-fatjar.jar:0.2.4.0+0+d7a78fa]
+	at net.minecraftforge.legacydev.MainClient.main(MainClient.java:29) [legacydev-0.2.4.0-fatjar.jar:0.2.4.0+0+d7a78fa]
+Caused by: net.minecraft.client.renderer.block.model.ModelBlockDefinition$MissingVariantException
+	at net.minecraft.client.renderer.block.model.ModelBlockDefinition.getVariant(ModelBlockDefinition.java:83) ~[ModelBlockDefinition.class:?]
+	at net.minecraftforge.client.model.ModelLoader$VariantLoader.loadModel(ModelLoader.java:1175) ~[ModelLoader$VariantLoader.class:?]
+	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:157) ~[ModelLoaderRegistry.class:?]
+	... 21 more
+[02:14:34] [Client thread/ERROR] [FML]: Exception loading model for variant dynamictreesmfr:leaves0#hydro=2,tree=3 for blockstates ["dynamictreesmfr:leaves0[decayable=false,hydro=2,tree=3]", "dynamictreesmfr:leaves0[decayable=true,hydro=2,tree=3]"]
+net.minecraftforge.client.model.ModelLoaderRegistry$LoaderException: Exception loading model dynamictreesmfr:leaves0#hydro=2,tree=3 with loader VariantLoader.INSTANCE, skipping
+	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:161) ~[ModelLoaderRegistry.class:?]
+	at net.minecraftforge.client.model.ModelLoader.registerVariant(ModelLoader.java:235) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.loadBlock(ModelBakery.java:153) ~[ModelBakery.class:?]
+	at net.minecraftforge.client.model.ModelLoader.loadBlocks(ModelLoader.java:223) ~[ModelLoader.class:?]
+	at net.minecraftforge.client.model.ModelLoader.setupModelRegistry(ModelLoader.java:150) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelManager.onResourceManagerReload(ModelManager.java:28) [ModelManager.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.registerReloadListener(SimpleReloadableResourceManager.java:121) [SimpleReloadableResourceManager.class:?]
+	at net.minecraft.client.Minecraft.init(Minecraft.java:513) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:378) [Minecraft.class:?]
+	at net.minecraft.client.main.Main.main(Main.java:118) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_372]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_372]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_372]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_372]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_372]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_372]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_372]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_372]
+	at net.minecraftforge.legacydev.Main.start(Main.java:91) [legacydev-0.2.4.0-fatjar.jar:0.2.4.0+0+d7a78fa]
+	at net.minecraftforge.legacydev.MainClient.main(MainClient.java:29) [legacydev-0.2.4.0-fatjar.jar:0.2.4.0+0+d7a78fa]
+Caused by: net.minecraft.client.renderer.block.model.ModelBlockDefinition$MissingVariantException
+	at net.minecraft.client.renderer.block.model.ModelBlockDefinition.getVariant(ModelBlockDefinition.java:83) ~[ModelBlockDefinition.class:?]
+	at net.minecraftforge.client.model.ModelLoader$VariantLoader.loadModel(ModelLoader.java:1175) ~[ModelLoader$VariantLoader.class:?]
+	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:157) ~[ModelLoaderRegistry.class:?]
+	... 21 more
+[02:14:34] [Client thread/ERROR] [FML]: Exception loading model for variant dynamictreesmfr:leaves0#hydro=2,tree=0 for blockstates ["dynamictreesmfr:leaves0[decayable=true,hydro=2,tree=0]", "dynamictreesmfr:leaves0[decayable=false,hydro=2,tree=0]"]
+net.minecraftforge.client.model.ModelLoaderRegistry$LoaderException: Exception loading model dynamictreesmfr:leaves0#hydro=2,tree=0 with loader VariantLoader.INSTANCE, skipping
+	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:161) ~[ModelLoaderRegistry.class:?]
+	at net.minecraftforge.client.model.ModelLoader.registerVariant(ModelLoader.java:235) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.loadBlock(ModelBakery.java:153) ~[ModelBakery.class:?]
+	at net.minecraftforge.client.model.ModelLoader.loadBlocks(ModelLoader.java:223) ~[ModelLoader.class:?]
+	at net.minecraftforge.client.model.ModelLoader.setupModelRegistry(ModelLoader.java:150) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelManager.onResourceManagerReload(ModelManager.java:28) [ModelManager.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.registerReloadListener(SimpleReloadableResourceManager.java:121) [SimpleReloadableResourceManager.class:?]
+	at net.minecraft.client.Minecraft.init(Minecraft.java:513) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:378) [Minecraft.class:?]
+	at net.minecraft.client.main.Main.main(Main.java:118) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_372]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_372]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_372]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_372]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_372]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_372]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_372]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_372]
+	at net.minecraftforge.legacydev.Main.start(Main.java:91) [legacydev-0.2.4.0-fatjar.jar:0.2.4.0+0+d7a78fa]
+	at net.minecraftforge.legacydev.MainClient.main(MainClient.java:29) [legacydev-0.2.4.0-fatjar.jar:0.2.4.0+0+d7a78fa]
+Caused by: net.minecraft.client.renderer.block.model.ModelBlockDefinition$MissingVariantException
+	at net.minecraft.client.renderer.block.model.ModelBlockDefinition.getVariant(ModelBlockDefinition.java:83) ~[ModelBlockDefinition.class:?]
+	at net.minecraftforge.client.model.ModelLoader$VariantLoader.loadModel(ModelLoader.java:1175) ~[ModelLoader$VariantLoader.class:?]
+	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:157) ~[ModelLoaderRegistry.class:?]
+	... 21 more
+[02:14:34] [Client thread/FATAL] [FML]: Suppressed additional 17 model loading errors for domain dynamictreesmfr
+[02:14:36] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `stick`, expected `minefantasyreforged`. This could be a intended override, but in most cases indicates a broken mod.
+[02:14:36] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `bread`, expected `minefantasyreforged`. This could be a intended override, but in most cases indicates a broken mod.
+[02:14:36] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `pumpkin_pie`, expected `minefantasyreforged`. This could be a intended override, but in most cases indicates a broken mod.
+[02:14:36] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cake`, expected `minefantasyreforged`. This could be a intended override, but in most cases indicates a broken mod.
+[02:14:36] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `flint_and_steel`, expected `minefantasyreforged`. This could be a intended override, but in most cases indicates a broken mod.
+[02:14:36] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `bucket`, expected `minefantasyreforged`. This could be a intended override, but in most cases indicates a broken mod.
+[02:14:36] [Client thread/WARN] [minefantasyreforged]: Overriding recipes with dummy recipes, please ignore the above "Dangerous alternative prefix" warnings.
+[02:14:36] [Client thread/INFO] [FML]: Applying holder lookups
+[02:14:36] [Client thread/INFO] [FML]: Holder lookups applied
+[02:14:36] [Client thread/INFO] [jei]: Created: 256x128 textures-atlas
+[02:14:36] [Client thread/INFO] [FML]: Injecting itemstacks
+[02:14:36] [Client thread/INFO] [FML]: Itemstack injection complete
+[02:14:36] [Client thread/INFO] [minefantasyreforged]: Loading carpenter registry entries from config directory
+[02:14:36] [Client thread/INFO] [minefantasyreforged]: Loading default carpenter registry entries
+[02:14:36] [Client thread/INFO] [minefantasyreforged]: Loading anvil registry entries from config directory
+[02:14:36] [Client thread/INFO] [minefantasyreforged]: Loading default anvil registry entries
+[02:14:36] [Client thread/INFO] [jei]: Starting JEI...
+[02:14:36] [CC Supporters Downloader/INFO] [STDERR]: [codechicken.lib.internal.ModDescriptionEnhancer:lambda$init$0:85]: java.lang.UnsupportedOperationException: JsonNull
+[02:14:36] [CC Supporters Downloader/INFO] [STDERR]: [codechicken.lib.internal.ModDescriptionEnhancer:lambda$init$0:85]: 	at com.google.gson.JsonElement.getAsString(JsonElement.java:191)
+[02:14:36] [CC Supporters Downloader/INFO] [STDERR]: [codechicken.lib.internal.ModDescriptionEnhancer:lambda$init$0:85]: 	at codechicken.lib.internal.ModDescriptionEnhancer.parse(ModDescriptionEnhancer.java:103)
+[02:14:36] [CC Supporters Downloader/INFO] [STDERR]: [codechicken.lib.internal.ModDescriptionEnhancer:lambda$init$0:85]: 	at codechicken.lib.internal.ModDescriptionEnhancer.lambda$init$0(ModDescriptionEnhancer.java:82)
+[02:14:36] [CC Supporters Downloader/INFO] [STDERR]: [codechicken.lib.internal.ModDescriptionEnhancer:lambda$init$0:85]: 	at java.lang.Thread.run(Thread.java:750)
+[02:14:36] [Client thread/INFO] [jei]: Registering recipe categories...
+[02:14:36] [Client thread/INFO] [jei]: Registering recipe categories took 29.56 ms
+[02:14:36] [Client thread/INFO] [jei]: Registering mod plugins...
+[02:14:36] [Client thread/INFO] [jei]: Registering mod plugins took 281.3 ms
+[02:14:36] [Client thread/INFO] [jei]: Building recipe registry...
+[02:14:37] [Client thread/INFO] [jei]: Building recipe registry took 431.8 ms
+[02:14:37] [Client thread/INFO] [jei]: Building ingredient list...
+[02:14:37] [Client thread/INFO] [jei]: Building ingredient list took 58.92 ms
+[02:14:37] [Client thread/INFO] [jei]: Building ingredient filter...
+[02:14:38] [Client thread/INFO] [jei]: Building ingredient filter took 615.7 ms
+[02:14:38] [Client thread/INFO] [jei]: Building bookmarks...
+[02:14:38] [Client thread/INFO] [jei]: Building bookmarks took 4.506 ms
+[02:14:38] [Client thread/INFO] [jei]: Building runtime...
+[02:14:38] [Client thread/INFO] [jei]: Building runtime took 105.1 ms
+[02:14:38] [Client thread/INFO] [jei]: Optimizing memory usage...
+[02:14:38] [Client thread/INFO] [jei]: Optimizing memory usage took 93.72 ms
+[02:14:38] [Client thread/INFO] [jei]: Starting JEI took 1.871 s
+[02:14:38] [Client thread/INFO] [FML]: Forge Mod Loader has successfully loaded 10 mods
+[02:14:38] [Client thread/WARN] [net.minecraft.client.settings.GameSettings]: Skipping bad option: lastServer:
+[02:14:38] [Client thread/INFO] [com.mojang.text2speech.NarratorWindows]: Narrator library for x64 successfully loaded
+[02:14:39] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient]: Could not authorize you against Realms server: Invalid session id
+[02:14:56] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Starting integrated minecraft server version 1.12.2
+[02:14:56] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Generating keypair
+[02:14:56] [Server thread/INFO] [FML]: Injecting existing registry data into this server instance
+[02:14:57] [Server thread/INFO] [FML]: Applying holder lookups
+[02:14:57] [Server thread/INFO] [FML]: Holder lookups applied
+[02:14:57] [Server thread/INFO] [FML]: Loading dimension 0 (It worked!?) (net.minecraft.server.integrated.IntegratedServer@78092053)
+[02:14:57] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 488 advancements
+[02:14:57] [Server thread/INFO] [FML]: Loading dimension -1 (It worked!?) (net.minecraft.server.integrated.IntegratedServer@78092053)
+[02:14:57] [Server thread/INFO] [FML]: Loading dimension 1 (It worked!?) (net.minecraft.server.integrated.IntegratedServer@78092053)
+[02:14:57] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for level 0
+[02:14:58] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 67%
+[02:14:59] [Server thread/INFO] [FML]: Unloading dimension -1
+[02:14:59] [Server thread/INFO] [FML]: Unloading dimension 1
+[02:14:59] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Changing view distance to 12, from 10
+[02:15:00] [Netty Local Client IO #0/INFO] [FML]: Server protocol version 2
+[02:15:00] [Netty Server IO #1/INFO] [FML]: Client protocol version 2
+[02:15:00] [Netty Server IO #1/INFO] [FML]: Client attempting to join with 10 mods : minecraft@1.12.2,FML@8.0.99.99,minefantasyreforged@1.12.2-0.2.8,forge@14.23.5.2860,mixinbooter@7.0,codechickenlib@3.2.3.358,dynamictrees@1.12.2-0.9.29,dynamictreesmfr@0.0.1,mcp@9.42,jei@4.16.1.302
+[02:15:00] [Netty Server IO #1/INFO] [CodeChickenLib-ConfigSync]: Skipping config sync, No mods have registered a syncable config.
+[02:15:00] [Netty Local Client IO #0/INFO] [FML]: [Netty Local Client IO #0] Client side modded connection established
+[02:15:00] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
+[02:15:00] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: Player0[local:E:0b73af75] logged in with entity id 362 at (63.70018233988182, 64.0, 443.6510231625884)
+[02:15:00] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Player0 joined the game
+[02:15:01] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Saving and pausing game...
+[02:15:01] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Dynamic Trees for Minefantasy: Reforged: To prevent non-dynamic trees from spawning please set the tree rarity to 0 for each tree in Minefantasy: Reforged's worldGen config file.
+[02:15:01] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'It worked!?'/overworld
+[02:15:01] [Client thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 17 advancements
+[02:17:03] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player0: Set the time to 0]
+[02:17:03] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Set the time to 0
+[02:17:03] [Client thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 18 advancements
+[02:19:43] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Saving and pausing game...
+[02:19:43] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'It worked!?'/overworld
+[02:21:58] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Saving and pausing game...
+[02:21:58] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'It worked!?'/overworld
+[02:21:59] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
+[02:21:59] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving players
+[02:21:59] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: Player0 lost connection: Disconnected
+[02:21:59] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Player0 left the game
+[02:21:59] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: Stopping singleplayer server as player logged out
+[02:21:59] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving worlds
+[02:21:59] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'It worked!?'/overworld
+[02:21:59] [Server thread/INFO] [FML]: Unloading dimension 0
+[02:22:00] [Server thread/INFO] [FML]: Applying holder lookups
+[02:22:00] [Server thread/INFO] [FML]: Holder lookups applied
+[02:22:02] [Client thread/INFO] [net.minecraft.client.Minecraft]: Stopping!
+[02:22:02] [Client thread/INFO] [net.minecraft.client.audio.SoundManager]: SoundSystem shutting down...
+[02:22:02] [Client thread/WARN] [net.minecraft.client.audio.SoundManager]: Author: Paul Lamb, www.paulscode.com

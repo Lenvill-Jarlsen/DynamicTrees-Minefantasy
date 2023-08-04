@@ -1,0 +1,7 @@
+{
+	"parent": "dynamictrees:block/smartmodel/branch",
+	"textures": {
+		"bark": "minefantasyreforged:blocks/yew_log_side",
+		"rings": "minefantasyreforged:blocks/yew_log_top"
+	}
+}
